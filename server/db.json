@@ -1,0 +1,42 @@
+{
+  "gender": [
+    {
+      "id": 1,
+      "name": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Transgender"
+    },
+    {
+      "id": 4,
+      "name": "Not Specified"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alessio",
+      "email": "sferro.alessio@gmail.com",
+      "description": "I love to build and learn everytime",
+      "gender": {
+        "id": 1,
+        "name": "Male"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Giovanna",
+      "email": "sferro.giovanna@gmail.com",
+      "description": "Korean is my favourite language <3",
+      "gender": {
+        "id": 2,
+        "name": "Female"
+      }
+    }
+  ]
+}

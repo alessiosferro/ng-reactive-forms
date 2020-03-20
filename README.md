@@ -1,4 +1,8 @@
-# NgReactiveForms
+# Angular Reactive Forms
+
+Angular reactive forms playground app.
+
+## NgReactiveForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 

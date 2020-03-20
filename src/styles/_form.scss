@@ -1,0 +1,35 @@
+.form {
+  padding: 1rem 2rem;
+
+  &-group {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column-reverse;
+
+    > label {
+      margin-bottom: .5rem;
+    }
+  }
+  
+  &-control {
+    height: fit-content;
+    min-height: 4rem;
+    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
+    max-height: 30rem;
+    border: 1px solid $color-dark;
+    border-radius: 2px;
+    padding: 1rem .8rem !important;
+    font-size: 1.6rem;
+
+    &:focus {
+      outline: none;
+      border-color: $color-primary;
+    }
+
+    &:focus + label {
+      color: $color-primary;
+    }
+  }
+}
